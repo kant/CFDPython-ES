@@ -1,4 +1,4 @@
-Bievenido al repositorio online de mecánica de fluidos computacional ([CFD](http://es.wikipedia.org/wiki/Mec%C3%A1nica_de_fluidos_computacional))
+Bienvenido al repositorio online de mecánica de fluidos computacional ([CFD](http://es.wikipedia.org/wiki/Mec%C3%A1nica_de_fluidos_computacional))
 
 Estos notebooks forman parte del primer módulo interactivo online de [CFD con Python](https://github.com/barbagroup/CFDPython/) impartido por la profesora [Lorena A. Barba](http://lorenabarba.com/) y llamado **12 Steps to Navier-Stokes.**.
 Texto y código sujeto bajo Creative Commons Attribution license, CC-BY-SA. (c) Original por Lorena A. Barba y Gilbert Forsyth en 2013, traducido por F.J. Navarro-Brull para [CAChemE.org](http://www.cacheme.org/)
@@ -6,12 +6,12 @@ Texto y código sujeto bajo Creative Commons Attribution license, CC-BY-SA. (c) 
 [@LorenaABarba](https://twitter.com/LorenaABarba) - 
 [@CAChemEorg](https://twitter.com/cachemeorg)
 
-###Instalando Python
+### Instalando Python
 
-El nucleo de este curso ha sido creado mediante [Jupyter (anteriormente conocido como IPython) notebooks](https://jupyter-notebook.readthedocs.org/en/latest/notebook.html), una entorno interactivo de programación que se ejecuta en el navegador.
+El núcleo de este curso ha sido creado mediante [Jupyter (anteriormente conocido como IPython) notebooks](https://jupyter-notebook.readthedocs.org/en/latest/notebook.html), una entorno interactivo de programación que se ejecuta en el navegador.
 
 
-####Anaconda
+#### Anaconda
 Recomendamos *mucho* que instales la [distribución de Python Anaconda](http://docs.continuum.io/anaconda/install) 
 
 Puedes descargar e instalar Anaconda en Windows, OSX y Linux. Para asegurarnos de que tenemos la instalación actualizada con todas las bibliotecas necesarias para seguir este curso, debes de ejecutar lo siguiente en la ventana de comandos (cmd en windows o Bash en Mac/linux) 
@@ -27,7 +27,7 @@ conda install numpy scipy sympy
 ```
 Si no te aclaras, puedes ver [este vídeo](https://www.youtube.com/watch?v=x4xegDME5C0&feature=youtu.be&list=PLGBbVX_WvN7as_DnOGcpkSsUyXB1G_wqb).
 
-####Sin Anaconda
+#### Sin Anaconda
 Si ya tienes Python instalado y no quieres usar Anaconda, puedes instalar las librerías mediante pip con el siguiente comando
 
 ```Bash
@@ -39,7 +39,7 @@ Al igual que con Anaconda, debes asegurarte de que tienes todas las librerías n
 pip install numpy scipy sympy
 ```
 
-###Abriendo un notebook (y creando un server de jupyter para ello)
+### Abriendo un notebook (y creando un server de jupyter para ello)
 
 Una vez tenemos jupyter instalado, simplemente abre una terminal (ventana de comandos) y ejecuta: 
 
